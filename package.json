@@ -1,0 +1,21 @@
+{
+  "name": "tado-api-unofficial",
+  "version": "1.0.0",
+  "description": "Unofficial npm package to deal with Tado API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "target": "browser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aymkdn/tado-api-unofficial.git"
+  },
+  "author": "aymkdn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aymkdn/tado-api-unofficial/issues"
+  },
+  "homepage": "https://github.com/Aymkdn/tado-api-unofficial#readme",
+  "dependencies": {}
+}
