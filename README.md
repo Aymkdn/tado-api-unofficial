@@ -64,7 +64,7 @@ Once you have initiated your object, you can use the below API:
 
 To return the details about your profile.
 
-̀```javascript
+```javascript
 tado.getProfile()
 .then(function(profile) {
   console.log(profile);
@@ -318,7 +318,7 @@ For any other requests, you can use this function.
 
 **Note**: you can use `%homeId%` in the URL and it will automatically be replaced by your Home Id.
 
-If `params` is provided and is a JSON object, then a `POST` request is sent with `params` as the body.
+If `params` is provided and is a JSON object, then a `POST` request is sent with `params` as the body.   
 If `params` is provided and equals to "DELETE", then a `DELETE` request is sent.
 
 Examples:
