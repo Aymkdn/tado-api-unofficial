@@ -4,7 +4,7 @@ This a javascript module based on https://shkspr.mobi/blog/2019/02/tado-api-guid
 
 ## Installation
 
-̀```bash
+```bash
 npm install tado-api-unofficial
 ```
 
