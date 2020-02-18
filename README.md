@@ -27,7 +27,6 @@ Header always set Access-Control-Allow-Headers "*"
 RewriteEngine On
 RewriteCond %{REQUEST_METHOD} OPTIONS
 RewriteRule ^(.*)$ $1 [R=200,L]
-
 ```
 
 The purpose of this file is to allow CORS requests.
