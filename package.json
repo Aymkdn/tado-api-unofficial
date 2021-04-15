@@ -1,6 +1,6 @@
 {
   "name": "tado-api-unofficial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial npm package to deal with Tado API",
   "main": "index.js",
   "scripts": {

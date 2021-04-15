@@ -44,9 +44,12 @@ $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $url);
 // transfer the headers
 $headers = apache_request_headers();
-$curlHeaders = [];
+$curlHeaders = [
+  "Origin: https://my.tado.com",
+  "Referer: https://my.tado.com"
+];
 foreach ($headers as $header => $value) {
-  if ($header !== "Host") array_push($curlHeaders, $header.': '.$value);
+  if (!in_array($header, [ "Host", "Origin", "Referer" ])) array_push($curlHeaders, $header.': '.$value);
 }
 curl_setopt($curl, CURLOPT_HTTPHEADER, $curlHeaders);
 
